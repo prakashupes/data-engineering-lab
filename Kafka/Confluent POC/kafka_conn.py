@@ -11,3 +11,4 @@ def get_kafka_conf(dbutils, scope="kafka_lab"):
     }
 
 TOPIC = "post-engagement"   # shared default so every notebook uses the same topic name
+TOPIC_REGISTRY = "post-engagement-avro"
